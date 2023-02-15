@@ -40,6 +40,7 @@ Latest commit b5bb4c1 on Jul 16, 2022
 /integration/bazel/bazel-*
 *.log
 /node_modules/
+/.angualar/
 
 # CircleCI temporary file for cache key computation.
 # See `save_month_to_file` in `.circleci/config.yml`.
