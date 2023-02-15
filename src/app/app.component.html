@@ -6,7 +6,7 @@
 <form [formGroup]="form"
       (ngSubmit)="onChatSubmit()"
       style="padding: 10px;">
-    <mat-form-field appearance="outline"
+    <mat-form-field appearance="fill"
                     style="width: 100%">
         <mat-label>Name</mat-label>
         <input matInput
@@ -16,7 +16,7 @@
         <mat-error>Name is required</mat-error>
     </mat-form-field>
 
-    <mat-form-field appearance="outline"
+    <mat-form-field appearance="fill"
                     style="width: 100%">
         <mat-label>Message</mat-label>
         <textarea matInput
