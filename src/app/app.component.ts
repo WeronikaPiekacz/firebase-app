@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-import { Firestore, collectionData, collection } from "@angular/fire/firestore";
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
@@ -7,6 +6,4 @@ import { Firestore, collectionData, collection } from "@angular/fire/firestore";
 })
 export class AppComponent {
   title = "firebase-app";
-
-  constructor(private store: AngularFirestore) {}
 }
